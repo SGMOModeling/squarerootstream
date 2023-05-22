@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Build directories
+Debug
+Release
+
+# Visual Studio files
+*.u2d
+.vs
