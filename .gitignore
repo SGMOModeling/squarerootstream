@@ -38,3 +38,5 @@ Release
 # Visual Studio files
 *.u2d
 .vs
+
+build/
