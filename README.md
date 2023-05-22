@@ -19,3 +19,23 @@ the default IWFM format to PEST SMP format
 
 | Name | Date | Time | Value |
 | ---- | ---- | ---- | ----- |
+
+## CMake
+
+from the repo directory containing the CMakeLists.txt, run the following commands in command prompt
+
+```bash
+mkdir build
+```
+
+to configure the project, run the following command
+
+```bash
+cmake -S . -B build
+```
+
+to build the executable in the Release Configuration, run the following command
+
+```bash
+cmake --build build --config Release
+```
